@@ -1,0 +1,90 @@
+* {
+	background-color: rgb(199, 176, 189);
+	font-family: Arial;
+}
+
+header h1 {
+	text-shadow: 3px 2px purple;
+	border-style: solid;
+	border-color: #B5079A;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 3px 2px purple;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #FE08D8;
+	text-align: center;
+}
+
+.container {
+	text-align: center
+	margin-top: 20px;
+	padding-top: 10px;
+	display: grid;
+	grid-template-columns: 15% 15% 15% 15% 15% 15%;
+	grid-template-rows: auto auto auto;
+  	padding: 5px;
+}
+
+.container > div {
+  	border: 1px;
+  	padding: 10px;
+  	font-size: 17px;
+  	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 50px;
+	text-decoration: none;
+}
+
+h2 a {
+	text-decoration: none;
+	color: black;
+}
+
+.opleiding h2 {
+	text-align: left;
+	animation: slidein 2s;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%s;
+	}
+}
+
+.opleiding h3, p {
+	text-align: left;
+	margin-bottom: 10px;
+	width: 20em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
+img {
+	border-radius: 20%;
+	height: 50%;
+	width: 20%;
+	float: center;
+}
+
+footer {
+	color: #F808EA;
+	margin-top: 20px;
+	padding-top: 20px;
+	text-align: center;
+	text-shadow: 3px 2px purple;
+	border-style: solid;
+	border-color: #B5079A;;
+	text-align: center;
+}
