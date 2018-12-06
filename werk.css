@@ -69,6 +69,7 @@ h3 {
 
 h3, p {
 	text-align: left;
+	border: 1px solid #000000;
 }
 
 footer {
