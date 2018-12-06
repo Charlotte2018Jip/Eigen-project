@@ -67,9 +67,19 @@ h3 {
 	text-align: center;
 }
 
-h3, p {
+.calvinklein h3, p {
 	text-align: left;
+	margin-bottom: 10px;
+	width: 20em;
 	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+
+img {
+	border-radius: 20%;
+	height: 50%;
+	width: 20%;
+	float: center;
 }
 
 footer {
