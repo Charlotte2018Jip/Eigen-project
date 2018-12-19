@@ -73,7 +73,7 @@ h3, p {
 
 .hobbies_interesses {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 footer {
