@@ -71,6 +71,11 @@ h3, p {
 	text-align: left;
 }
 
+.hobbies_interesses {
+	display: flex;
+	justify-content: space-between;
+}
+
 footer {
 	color: #F808EA;
 	margin-top: 20px;
