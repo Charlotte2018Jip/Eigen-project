@@ -15,6 +15,8 @@ header h1 {
 
 .hover {
 	animation: bounce infinite 3s;
+	text-decoration: none;
+	color: black;
 }
 
 @keyframes bounce {
